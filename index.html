@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader" id="loader"></div>
+    <div class="container hidden" id="content">
+        <h1>🥇Fake Store</h1>
+        <div class="filters">
+            <select id="categoryFilter">
+                <option value="all">Все категории</option>
+            </select>
+            <select id="priceSort">
+                <option value="default">Сортировка по цене</option>
+                <option value="asc">По возрастанию</option>
+                <option value="desc">По убыванию</option>
+            </select>
+        </div>
+        <div class="product-list" id="productList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
